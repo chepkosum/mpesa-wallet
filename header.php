@@ -16,7 +16,7 @@ if ($result->num_rows > 0) {
 }
 
 // Close the database connection
-$conn->close();
+// $conn->close();
 // $getAccountData = mysqli_query($conn, "SELECT * FROM transactions");
 // if (mysqli_num_rows($getAccountData) > 0) {
 //     $accountData = mysqli_fetch_array($getAccountData);
